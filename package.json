@@ -17,5 +17,8 @@
     "node-schedule": "^1.2.3",
     "serve-favicon": "~2.4.2",
     "xml2json": "^0.11.0"
+  },
+  "engines": {
+    "node": "6.10.3"
   }
 }

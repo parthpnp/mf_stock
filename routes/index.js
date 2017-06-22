@@ -7,6 +7,12 @@ var parser = require('xml2json');
 var mysql = require('mysql');
 var schedule = require('node-schedule');
 
+
+app.get('/scrape', function(req, res){
+		    res.send('Check your Asshole!');
+});
+
+
 app.get('/scrape', function(req, res){
 
 	var con = mysql.createConnection({
@@ -78,7 +84,7 @@ app.get('/scrape', function(req, res){
 			})
 		})
 	});
-		    res.send('Check your console!')        
+		    res.send('Check your console!');
 	});
 });
 

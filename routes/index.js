@@ -8,7 +8,7 @@ var mysql = require('mysql');
 var schedule = require('node-schedule');
 
 
-app.get('/scrape', function(req, res){
+app.get('/', function(req, res){
 		    res.send('Check your Asshole!');
 });
 
